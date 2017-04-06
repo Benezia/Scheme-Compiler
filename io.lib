@@ -1,0 +1,14 @@
+/* io.asm
+ * A loader file for the IO library functions
+ * 
+ * Programmer: Mayer Goldberg, 2010
+ */
+
+#include "lib/io/readline.asm"
+#include "lib/io/write.asm"
+#include "lib/io/writeln.asm"
+#include "lib/io/tab.asm"
+#include "lib/io/newline.asm"
+#include "lib/io/putchar.asm"
+#include "lib/io/getchar.asm"
+#include "lib/io/write_integer.asm"

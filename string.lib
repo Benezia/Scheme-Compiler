@@ -1,0 +1,17 @@
+/* string.asm
+ * A loader file for the string library functions
+ *
+ * Programmer: Mayer Goldberg, 2010
+ */
+
+#include "lib/string/strlen.asm"
+#include "lib/string/strcat.asm"
+#include "lib/string/strcpy.asm"
+#include "lib/string/string_to_lc.asm"
+#include "lib/string/string_to_uc.asm"
+#include "lib/string/left_string.asm"
+#include "lib/string/right_string.asm"
+#include "lib/string/mid_string.asm"
+#include "lib/string/string_reverse.asm"
+#include "lib/string/number_to_string.asm"
+#include "lib/string/string_to_number.asm"

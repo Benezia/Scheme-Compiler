@@ -1,0 +1,15 @@
+/* char.asm
+ * A file for loading the various functions on chars
+ * 
+ * Programmer: Mayer Goldberg, 2010
+ */
+
+#include "lib/char/char_in_range.asm"
+#include "lib/char/char_to_lc.asm"
+#include "lib/char/char_to_uc.asm"
+#include "lib/char/is_char_alphabetic.asm"
+#include "lib/char/is_char_lc.asm"
+#include "lib/char/is_char_uc.asm"
+#include "lib/char/char_to_digit.asm"
+#include "lib/char/digit_to_char.asm"
+#include "lib/char/is_char_white_space.asm"

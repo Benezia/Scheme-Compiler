@@ -1,0 +1,40 @@
+/* scheme.lib
+ * Support for creating & manipulating Scheme objects in assembly
+ *
+ * Programmer: Mayer Goldberg, 2010
+ */
+
+#include "lib/scheme/types.inc"
+#include "lib/scheme/make_sob_void.asm"
+#include "lib/scheme/make_sob_nil.asm"
+#include "lib/scheme/make_sob_bool.asm"
+#include "lib/scheme/make_sob_char.asm"
+#include "lib/scheme/make_sob_integer.asm"
+#include "lib/scheme/make_sob_pair.asm"
+#include "lib/scheme/make_sob_closure.asm"
+#include "lib/scheme/make_sob_vector.asm"
+#include "lib/scheme/make_sob_string.asm"
+#include "lib/scheme/make_sob_fraction.asm"
+#include "lib/scheme/make_sob_symbol.asm"
+#include "lib/scheme/is_sob_void.asm"
+#include "lib/scheme/is_sob_nil.asm"
+#include "lib/scheme/is_sob_bool.asm"
+#include "lib/scheme/is_sob_char.asm"
+#include "lib/scheme/is_sob_integer.asm"
+#include "lib/scheme/is_sob_pair.asm"
+#include "lib/scheme/is_sob_fraction.asm"
+#include "lib/scheme/is_sob_symbol.asm"
+#include "lib/scheme/write_sob_void.asm"
+#include "lib/scheme/write_sob_nil.asm"
+#include "lib/scheme/write_sob_bool.asm"
+#include "lib/scheme/write_sob_char.asm"
+#include "lib/scheme/write_sob_integer.asm"
+#include "lib/scheme/write_sob_pair.asm"
+#include "lib/scheme/write_sob_closure.asm"
+#include "lib/scheme/write_sob_string.asm"
+#include "lib/scheme/write_sob_string_no_quotes.asm"
+#include "lib/scheme/write_sob_vector.asm"
+#include "lib/scheme/write_sob_symbol.asm"
+#include "lib/scheme/write_sob_fraction.asm"
+#include "lib/scheme/write_sob.asm"
+

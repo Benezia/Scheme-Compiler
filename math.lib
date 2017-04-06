@@ -1,0 +1,18 @@
+/* math.lib
+ * A file for loading the various functions that make up the
+ * support for mathematics
+ * 
+ * Programmer: Mayer Goldberg, 2010
+ */
+
+#include "lib/math/abs.asm"
+#include "lib/math/ack.asm"	
+#include "lib/math/fact.asm"
+#include "lib/math/fib.asm"
+#include "lib/math/is_even.asm"
+#include "lib/math/is_negative.asm"
+#include "lib/math/is_odd.asm"
+#include "lib/math/is_positive.asm"
+#include "lib/math/is_zero.asm"
+#include "lib/math/power.asm"
+#include "lib/math/signum.asm"
