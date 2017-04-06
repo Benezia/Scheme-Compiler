@@ -1,9 +1,3 @@
-(* compiler.ml
-   * A compiler from Scheme to CISC
-   *
-   * Programmer: Mayer Goldberg, 2015
-*)
-
 #use "pc.ml";;
 
 exception X_not_yet_implemented;;
